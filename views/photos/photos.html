@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../assets/css/custom.css">
+    <link rel="stylesheet" href="../../assets/css/styles.css">
+</head>
+<body style="background-image: linear-gradient(180deg , #fdbbc7,#fff3cd); height: 100vh;">
+    <div class="container-lg my-3">
+        <div class="card" style=" background-image: linear-gradient(180deg, #ffe5ca,#fed8cf); border: 2px dashed #d8c9e6;">
+            <div class="card-header" style="background-image: linear-gradient(360deg, #f7cbd8,#ccc7df);">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a href="#magazine-covers" class="nav-link active" data-bs-toggle="tab"  style="background-color: #ffe5d4;">Magazine Covers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#concerts" class="nav-link" data-bs-toggle="tab"  style="background-color: #ffe5d4;">Concerts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#photoshoots" class="nav-link" data-bs-toggle="tab"  style="background-color: #ffe5d4;">Photoshoots</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card-body">
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="magazine-covers">
+                        <div class="carousel slide" id="carousel-1" data-bs-ride="carousel">
+                            <ol class="carousel-indicators list-unstyled">
+                                <li class="active" data-bs-target="#carousel-1" data-bs-slide-to="0"></li>
+                                <li class="" data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+                                <li class="" data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+                            </ol>
+                
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../../assets/images/mg1.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../../assets/images/mg2.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../../assets/images/mg3.jpg" alt="" class="d-block w-100">
+                                </div>
+                            </div>
+                    
+                            <a href="#carousel-1" class="carousel-control-prev" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a href="#carousel-1" class="carousel-control-next" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="concerts">
+                        <div class="carousel slide" id="carousel-2" data-bs-ride="carousel">
+                            <ol class="carousel-indicators list-unstyled">
+                                <li class="active" data-bs-target="#carousel-2" data-bs-slide-to="0"></li>
+                                <li class="" data-bs-target="#carousel-2" data-bs-slide-to="1"></li>
+                                <li class="" data-bs-target="#carousel-2" data-bs-slide-to="2"></li>
+                            </ol>
+                
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../../assets/images/con1.jpg"  alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../../assets/images/con2.jpg"  alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../../assets/images/con3.jpg" alt="" class="d-block w-100">
+                                </div>
+                            </div>
+                    
+                            <a href="#carousel-2" class="carousel-control-prev" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a href="#carousel-2" class="carousel-control-next" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade show" id="photoshoots">
+                        <div class="carousel slide" id="carousel-3" data-bs-ride="carousel">
+                            <ol class="carousel-indicators list-unstyled">
+                                <li class="active" data-bs-target="#carousel-3" data-bs-slide-to="0"></li>
+                                <li class="" data-bs-target="#carousel-3" data-bs-slide-to="1"></li>
+                                <li class="" data-bs-target="#carousel-3" data-bs-slide-to="2"></li>
+                            </ol>
+                
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="../../assets/images/shoot1.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../../assets/images/shoot2.jpg" alt="" class="d-block w-100">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="../../assets/images/shoot3.jpg" alt="" class="d-block w-100">
+                                </div>
+                            </div>
+                    
+                            <a href="#carousel-3" class="carousel-control-prev" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </a>
+                            <a href="#carousel-3" class="carousel-control-next" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
